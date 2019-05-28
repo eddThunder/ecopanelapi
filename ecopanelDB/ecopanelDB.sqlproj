@@ -65,7 +65,7 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Role.sql" />
     <Build Include="dbo\Tables\User.sql" />
-    <Build Include="dbo\Tables\UserRole.sql" />
+    <Build Include="dbo\Tables\UsersRoles.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\RolesLoad.sql" />
