@@ -2,10 +2,8 @@
 using Domain.Services.Interfaces;
 using Domain.Services.Mappings.Infrastructure.Mappers;
 using Infrastructure.Repositories.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Domain.Services.UserService

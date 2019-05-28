@@ -1,9 +1,7 @@
 ﻿using Infrastructure.DataModel;
 using Infrastructure.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
@@ -17,6 +15,7 @@ namespace Infrastructure.Repositories
             using (var ctx = new ecopanelDBContext())
             {
                 var roles = await ctx.Role.ToListAsync();
+
                 return roles;
             }
         }

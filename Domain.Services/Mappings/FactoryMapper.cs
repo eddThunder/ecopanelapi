@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Domain.Services.Mappings
+﻿namespace Domain.Services.Mappings
 {
     using Domain.Models.Dtos;
     using global::Infrastructure.DataModel;
-    using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
 
     namespace Infrastructure.Mappers
     {
