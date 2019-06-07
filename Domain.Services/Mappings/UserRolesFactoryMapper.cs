@@ -8,7 +8,7 @@
     namespace Infrastructure.Mappers
     {
 
-        public static class FactoryMapper
+        public static class UserRolesFactoryMapper
         {
 
             /// <summary>

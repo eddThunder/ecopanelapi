@@ -21,26 +21,26 @@ namespace Domain.Services.UserService
 
             var userList = await _userRepository.GetAllUsersAsync();
 
-            return FactoryMapper.MapToDto(userList.ToList());
+            return UserRolesFactoryMapper.MapToDto(userList.ToList());
         }
 
         public async Task<UserDto> GetById(int userId)
         {
             var user = await _userRepository.GetByIdAsync(userId);
 
-            return FactoryMapper.MapToDtoWithPassword(user);
+            return UserRolesFactoryMapper.MapToDtoWithPassword(user);
         }
 
         public async Task<int> Insert(UserDto user)
         {
-            var entity = FactoryMapper.MapToEntity(user);
+            var entity = UserRolesFactoryMapper.MapToEntity(user);
 
             return await _userRepository.Insert(entity);
         }
 
         public async Task<int> Update(UserDto user)
         {
-            var entity = FactoryMapper.MapToEntity(user);
+            var entity = UserRolesFactoryMapper.MapToEntity(user);
 
             return await _userRepository.Update(entity);
         }
@@ -54,7 +54,7 @@ namespace Domain.Services.UserService
         {
             var user = await _userRepository.GetByCredentials(username, password);
 
-            return FactoryMapper.MapToDto(user);
+            return UserRolesFactoryMapper.MapToDto(user);
         }
     }
 }
