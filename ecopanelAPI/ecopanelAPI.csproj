@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain.Services\Domain.Services.csproj" />
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\EcopanelUsers.csproj" />
   </ItemGroup>
 
 </Project>

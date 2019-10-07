@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModel
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainServices", "DomainServices", "{EC02B928-038F-4FD9-A5C3-0DEE2772DE65}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{7E1C1A64-BD3E-4231-B16B-2F5AF42FE968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcopanelUsers", "Infrastructure\EcopanelUsers.csproj", "{7E1C1A64-BD3E-4231-B16B-2F5AF42FE968}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.SQL", "0.SQL", "{17CD94F4-64F9-40FB-A20D-5FF53ABC3F25}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{E1DCE59B-B635-430B-9E68-63BE8F69BAD1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Application", "{9C739439-3D9E-4280-B183-C07B76B728C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcopanelPlantsLibrary", "EcopanelPlantsLibrary\EcopanelPlantsLibrary.csproj", "{35A20ED0-B36F-47FD-8266-7256089D88A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{E1DCE59B-B635-430B-9E68-63BE8F69BAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1DCE59B-B635-430B-9E68-63BE8F69BAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1DCE59B-B635-430B-9E68-63BE8F69BAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A20ED0-B36F-47FD-8266-7256089D88A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A20ED0-B36F-47FD-8266-7256089D88A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A20ED0-B36F-47FD-8266-7256089D88A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A20ED0-B36F-47FD-8266-7256089D88A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{5C10C686-42C9-4D8C-A971-C91648FA3DF5} = {17CD94F4-64F9-40FB-A20D-5FF53ABC3F25}
 		{4D8AD289-1473-4C15-A016-5FC4BECA15D5} = {8DC7496C-7A2A-4B51-AD62-BC68134926A4}
 		{E1DCE59B-B635-430B-9E68-63BE8F69BAD1} = {EC02B928-038F-4FD9-A5C3-0DEE2772DE65}
+		{35A20ED0-B36F-47FD-8266-7256089D88A0} = {4B50B9D9-1578-480F-A897-93379EBB2548}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A9E963B-D114-41E1-9450-C565FDE189C0}
