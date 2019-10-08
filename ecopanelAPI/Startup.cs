@@ -42,7 +42,7 @@ namespace ecopanelAPI
             services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<IUserService, UserService>();
 
-
+            //swagger
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info
@@ -50,7 +50,7 @@ namespace ecopanelAPI
                     Version = "v1",
                     Title = "Ecopane API",
                     Description = "Ecopanel Swagger",
-                    TermsOfService = "None"
+                    TermsOfService = "This is a service made only for educational/practice purposes.. so feel free to take the code and do whatever you want"
                 });
             });
 
@@ -74,7 +74,7 @@ namespace ecopanelAPI
             app.UseHttpsRedirection();
             app.UseMvc();
 
-            // Swagger...
+            // Swagger
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
