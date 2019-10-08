@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecopanelAPI", "ecopanelAPI\ecopanelAPI.csproj", "{1E772DA9-B9B9-400F-8B2D-DAC65CFB1F6B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation", "4. Presentation", "{8FA0C37A-C4FA-4A47-BE3F-AFDC4E63DD6F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Presentation", "3. Presentation", "{8FA0C37A-C4FA-4A47-BE3F-AFDC4E63DD6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{539CA245-B53C-43E9-848A-63B5C75CB4A5}"
 EndProject
@@ -25,9 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Models", "Domain.Mod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{E1DCE59B-B635-430B-9E68-63BE8F69BAD1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Application", "{9C739439-3D9E-4280-B183-C07B76B728C8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcopanelPlantsLibrary", "EcopanelPlantsLibrary\EcopanelPlantsLibrary.csproj", "{35A20ED0-B36F-47FD-8266-7256089D88A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcopanelPlantsLibrary", "EcopanelPlantsLibrary\EcopanelPlantsLibrary.csproj", "{35A20ED0-B36F-47FD-8266-7256089D88A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,9 +14,7 @@ namespace Infrastructure.Repositories
 
     public class UserRepository : IUserRepository
     {
-
         public UserRepository() { }
-
 
         public async Task<IEnumerable<User>> GetAllUsersAsync()
         {
