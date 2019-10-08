@@ -1,17 +1,14 @@
 ﻿using Infrastructure.Repositories.Interfaces;
+using Infrastructure.DataModel;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
+
 
 namespace Infrastructure.Repositories
 {
-    using Infrastructure.DataModel;
-    using Microsoft.EntityFrameworkCore;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-
     public class UserRepository : IUserRepository
     {
         public UserRepository() { }

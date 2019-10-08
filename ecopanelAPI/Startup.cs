@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace ecopanelAPI
 {
@@ -41,6 +42,18 @@ namespace ecopanelAPI
             services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<IUserService, UserService>();
 
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Ecopane API",
+                    Description = "Ecopanel Swagger",
+                    TermsOfService = "None"
+                });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,6 +73,13 @@ namespace ecopanelAPI
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            // Swagger...
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
         }
     }
 }

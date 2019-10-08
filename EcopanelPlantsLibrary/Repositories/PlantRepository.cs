@@ -7,6 +7,11 @@ namespace EcopanelPlantsLibrary.Repositories
 {
     public class PlantRepository : IPlantsRepository
     {
+        
+        public PlantRepository()
+        {
+
+        }
         public Task<IEnumerable<Plant>> GetPlants()
         {
             throw new System.NotImplementedException();
