@@ -1,11 +1,13 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 
 namespace EcopanelPlantsLibrary.Entities.Plant
 {
     public class Plant
     {
-        public int Id { get; set; } 
+        public ObjectId Id { get; set; }
         public string CommonName { get; set; }
         public bool CompleteData { get; set; }
         public Category Order { get; set; }
